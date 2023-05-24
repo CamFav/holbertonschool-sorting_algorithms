@@ -16,13 +16,13 @@ void bubble_sort(int *array, size_t size)
 		return;
 	/* iterate throught the array */
 	for (a = 0; a < size; a++)
-    {
+	{
 		/* compare adjacent elements */
 		for (z = 0; z < size - a - 1; z++)
-        {
+		{
 			/* swap elements */
 			if (array[z] > array[z + 1])
-            {
+			{
 				tmp = array[z];
 				array[z] = array[z + 1];
 				array[z + 1] = tmp;
